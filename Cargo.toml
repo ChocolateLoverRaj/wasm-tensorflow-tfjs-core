@@ -1,8 +1,14 @@
 [package]
 name = "wasm-tensorflow-tfjs-core"
+description = "Rust WASM Bindings for the npm package `@tensorflow/tfjs-core`"
 version = "0.1.0"
 edition = "2021"
-
+license = "MIT"
+keywords = ["wasm", "tensorflow", "bindings"]
+homepage = "https://github.com/ChocolateLoverRaj/wasm-tensorflow-tfjs-core"
+repository = "https://github.com/ChocolateLoverRaj/wasm-tensorflow-tfjs-core"
+readme = "README.md"
+exclude = ["cspell.json"]
 # See more keys and their definitions at https://doc.rust-lang.org/cargo/reference/manifest.html
 
 [dependencies]
