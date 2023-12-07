@@ -21,7 +21,6 @@ impl ToString for BackendName {
 }
 
 pub async fn set_backend(backend_name: BackendName) -> Result<bool, JsValue> {
-    // bindings::set_backend(&backend_name.to_string());
     let result = JsFuture::from(Promise::from(bindings::set_backend(
         &backend_name.to_string(),
     )))
